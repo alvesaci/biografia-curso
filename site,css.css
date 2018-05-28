@@ -1,0 +1,30 @@
+@import url(fonts/ArchivoBlack-Regular.ttf);
+@import url(fonts/YatraOne-Regular.ttf);
+
+
+#paragrafo1 {
+    font-size: 24px;
+}
+
+.fundo {
+    
+    
+    text-align: center;
+}
+
+.borda-azul {
+    border: 1px solid;
+    border-color: blue;
+}
+
+body {
+       font-family: 'Yatra One', cursive;
+}
+
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+p {
+      font-family: 'Permanent Marker', cursive;
+       }
