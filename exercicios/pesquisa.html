@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Pesquisa eleitoral</title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+
+			<h1>Pesquisa Eleitoral</h1>
+			<p>*Obrigatório.</p>
+
+				<form method="" action="">
+		
+					<h2>Participe da pesquisa.</h2>
+					<label for="login">Login:</label>
+					<input type="text" id="login" name="login">
+					<br>
+
+					<label for="senha">Senha:</label>
+					<input type="password" id="senha" name="senha">
+					<br><br>
+
+					<button type="submit">Entrar</button>
+					<button type="reset">Limpar</button>
+					<br><br>
+
+					<fieldset>
+					<legend>Dados pessoais</legend>
+					<label for="nome">*Nome:</label>
+					<input type="text" id="nome" name="nome">
+					<br><br>
+
+					<label for="endereco">Endereço</label>
+					<input type="text" id="endereco" name="endereco">
+					<br><br>
+
+					<label for="idade">*Idade:</label>
+					<input type="number" id="idade" name="idade" value="16" min="16" max="50">
+					<br><br>
+
+					<label for="seuemail">Email:</label>
+					<input type="email" id="seuemail" name="seuemail">
+
+					</fieldset>
+					<br>
+
+					<fieldset>
+					<legend>*Escolha seu candidato</legend>
+					<input type="checkbox" name="rosemiro" value="jose"><label for="jose">Rosemiro</label>
+					<input type="checkbox" name="sidiclei" value="silvio"><label for="silvio">Sidiclei</label>
+					<input type="checkbox" name="passarinho" value="rodrigo"><label for="rodrigo">Passarinho</label>
+					</fieldset>
+					<br>
+
+					<fieldset>
+						<legend>Escolha sua nota de 0 a 10 para a pesquisa.</legend>
+						<input type="range" name="nota" min="0" max="10">
+
+					</fieldset>
+					<br>
+
+					<fieldset>
+						<legend>*O que você acha sobre essa pesquisa?</legend>
+						<input type="radio" name="opniao" value="boa"><label>Ótima</label>
+						<input type="radio" name="opniao" value="ruim"><label>Boa</label>
+						<input type="radio" name="opniao" value="maismenos"><label>Ruim</label>
+					</fieldset>
+					<br><br>
+
+					<button type="submit">Enviar</button>
+					<button type="reset">Limpar</button>
+
+				</form>
+				<br>
+			
+	
+</body>
+</html>
