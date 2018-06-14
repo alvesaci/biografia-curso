@@ -13,8 +13,8 @@
 
 #corpo {
    width: 700px;
-   height: 800px;
-   background-color: pink;
+   height: 600px;
+   background-color:
 
 }
 
@@ -26,20 +26,9 @@
 
 }
 
-#menu-lateral {
-   width: 100px;
-   height: 800px;
-   float: left;
-   background-color: purple; 
-
+    #rodape {
+        width: 700px;
+        height: 40px;
+        background-color: black;
 }
 
-
-
-
-#feeds {
-    width: 200px;
-    height: 800px;
-    float: left;
-    background-color: lightcoral; 
-}
